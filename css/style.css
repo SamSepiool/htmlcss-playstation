@@ -2,3 +2,42 @@
 body{
     font-family: Arial, sans-serif;
 }
+
+.btn_g{
+    background-color: #363636;
+    color: white;
+}
+.btn_g:hover{
+    color: white;
+}
+/* TYPO */
+/* HEADER */
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.header_top{
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 20px;
+}
+.header_bottom .navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+.header_top img{
+    height: 16px;
+}
+
+.header_bottom .dropdown-toggle::after{
+border: none;
+content: url(../img/chevron-down-solid.svg);
+display: inline-block;
+width: 10px;
+vertical-align: middle;
+}
+
+.lens{
+    width: 20px;
+}
