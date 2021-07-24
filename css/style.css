@@ -10,7 +10,16 @@ body{
 .btn_g:hover{
     color: white;
 }
+
+.btn_or{
+    background-color: #cd3d0f;
+    color: white;
+}
 /* TYPO */
+
+
+/* MAIN */
+
 /* HEADER */
 .header{
     width: 100%;
@@ -40,4 +49,17 @@ vertical-align: middle;
 
 .lens{
     width: 20px;
+}
+
+/* HERO */
+#hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+    padding: 250px 0px 50px 2px;
+    
+}
+
+.hero_logo{
+    height: 25px;
 }
