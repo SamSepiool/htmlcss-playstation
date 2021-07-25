@@ -15,7 +15,13 @@ body{
     background-color: #cd3d0f;
     color: white;
 }
+
+.debug .container,
+.debug [class*="col"]{
+    border: 1px solid red;
+}
 /* TYPO */
+
 
 
 /* MAIN */
@@ -66,7 +72,6 @@ vertical-align: middle;
 }
 
 .hero_canvas{
-    width: 200px;
     margin: 15px;
     padding: 2px;
 }
@@ -74,7 +79,15 @@ vertical-align: middle;
 .hero_canvas img{
     border-radius: 20px;
 }
+.hero_canvas:active{
+    box-shadow:0px 0px 0px 2px #3f94da;
+    
+}
+.ps5_box{
+    opacity: 0.5;
+}
+.ps5_box:active{
+    border-bottom: 2px solid #3f94da;
+    opacity: inherit;
 
-.hero_canvas:hover{
-    border: 2px solid #3f94da;
 }
