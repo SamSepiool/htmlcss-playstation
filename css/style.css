@@ -57,9 +57,24 @@ vertical-align: middle;
     background-size: cover;
     background-position: top;
     padding: 250px 0px 50px 2px;
+    margin-bottom: 30px;
     
 }
 
 .hero_logo{
     height: 25px;
+}
+
+.hero_canvas{
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 2px;
+}
+.hero_canvas img{
+    border-radius: 20px;
+}
+
+.hero_canvas:hover{
+    border: 2px solid #3f94da;
 }
