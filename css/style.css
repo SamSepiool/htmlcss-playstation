@@ -34,6 +34,7 @@ body{
     height: 25px;
 }
 
+
 /* TYPO */
 
 
@@ -132,6 +133,11 @@ vertical-align: middle;
 
 #ps_plus .banner_logo{
     height: 55px;
+}
+
+/* PS-STORE */
+#ps_store{
+    margin: 70px 0px;
 }
 
 
