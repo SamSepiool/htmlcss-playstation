@@ -140,5 +140,12 @@ vertical-align: middle;
     margin: 70px 0px;
 }
 
+/* PS-NOW */
+#ps_now{
+    background-color: #161c3b;
+}
+#ps_now .banner_logo{
+    height: 60px;
+}
 
 
