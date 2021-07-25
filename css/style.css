@@ -22,6 +22,10 @@ body{
     color: white;
 }
 
+.btn_light{
+    background-color: #d9dadc;
+}
+
 .banner{
     background-size: cover;
     background-position: top;  
@@ -119,6 +123,15 @@ vertical-align: middle;
 /* PS4 */
 #ps4{
     margin: 75px 0px 110px 0px;
+}
+
+/* PS-PLUS */
+#ps_plus{
+    background-color: #bebcbb;
+}
+
+#ps_plus .banner_logo{
+    height: 55px;
 }
 
 
