@@ -1,3 +1,9 @@
+/* DEBUG */
+.debug .container,
+.debug [class*="col"]{
+    border: 1px solid red;
+}
+
 /* COMMON */
 body{
     font-family: Arial, sans-serif;
@@ -16,10 +22,14 @@ body{
     color: white;
 }
 
-.debug .container,
-.debug [class*="col"]{
-    border: 1px solid red;
+.banner{
+    background-size: cover;
+    background-position: top;  
 }
+.banner_logo{
+    height: 25px;
+}
+
 /* TYPO */
 
 
@@ -60,15 +70,10 @@ vertical-align: middle;
 /* HERO */
 #hero{
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-    background-position: top;
-    padding: 250px 0px 50px 2px;    
+    padding: 250px 0px 50px 2px;  
 }
 #hero_bottom{
     margin: 30px 0px 120px 0px;
-}
-.hero_logo{
-    height: 25px;
 }
 
 .hero_canvas{
@@ -83,11 +88,23 @@ vertical-align: middle;
     box-shadow:0px 0px 0px 2px #3f94da;
     
 }
+
+/* PS5 */
 .ps5_box{
     opacity: 0.5;
 }
 .ps5_box:active{
     border-bottom: 2px solid #3f94da;
     opacity: inherit;
-
 }
+
+/* NEW */
+#new{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding: 50px 0px 50px 2px;
+}
+
+#new .banner_logo{
+    height: 190px;
+}
+
