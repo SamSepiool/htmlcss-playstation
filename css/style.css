@@ -104,7 +104,17 @@ vertical-align: middle;
     padding: 50px 0px 50px 2px;
 }
 
+#new_relases{
+    background-color: #1f1f1f;
+    padding: 30px 0px 80px 0px;
+}
+#new_relases img{
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
 #new .banner_logo{
     height: 190px;
 }
+
+
 
