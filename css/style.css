@@ -17,6 +17,10 @@ body{
 }
 
 /* BUTTONS */
+.btn-primary:hover{
+    box-shadow: inset 0px 0px 0px 2px #fff;
+}
+
 .btn_g{
     background-color: #363636;
     color: white;
@@ -37,6 +41,9 @@ body{
 
 .btn_light{
     background-color: #d9dadc;
+}
+.btn_light:hover{
+    box-shadow: inset 0px 0px 0px 2px #000;
 }
 
 /* MAIN */
@@ -119,9 +126,13 @@ body{
     opacity: 0.5;
     border-bottom: 2px solid transparent;
 }
+
+.ps5_box:hover{
+    opacity: inherit;
+    transition: 00.5s;
+}
 .ps5_box:active{
     border-bottom: 2px solid #3f94da;
-    opacity: inherit;
 }
 
 /* NEW */
