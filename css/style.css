@@ -161,4 +161,26 @@ vertical-align: middle;
     margin: auto;
 }
 
-  
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    padding: 70px 0px 90px 0px;
+}  
+
+footer ul li{
+    margin: 10px 0px;
+}
+
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.globe{
+    height: 20px;
+}
+
+.sie_logo{
+    height: 50px;
+}
