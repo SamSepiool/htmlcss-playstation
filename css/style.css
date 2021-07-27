@@ -95,8 +95,14 @@ vertical-align: middle;
 }
 
 /* PS5 */
+#ps5{
+    margin-bottom: 30px;
+}
+
+
 .ps5_box{
     opacity: 0.5;
+    border-bottom: 2px solid transparent;
 }
 .ps5_box:active{
     border-bottom: 2px solid #3f94da;
@@ -150,9 +156,9 @@ vertical-align: middle;
 
 /* SOCIAL */
 .social_box{
-    width: 120px;
-    height: 120px;
-    display: inline-block;
+    max-width: 720px;
+    width: 60%;
+    margin: auto;
 }
-  
 
+  
